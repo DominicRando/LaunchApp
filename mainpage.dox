@@ -1,0 +1,7 @@
+/**
+\mainpage  Functors
+\n
+The following documentation describes the implementation of the STL datastructures vector when paired with class objects.
+\n
+The program gives a variety of methods to print the data in various ways, while also allowing for a separate "manipulation mode" where you searches will change which data nodes are shown
+*/
