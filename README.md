@@ -56,18 +56,13 @@ Assuming you are using the terminal, you should type the "make" command. This wi
 From here, you will be presented with a menu of options. When you enter in a character for these options, the program will take you to a submenu to complete your choice.
 
 P)rint allows you to print all Launch objects you currently have, or print range will print objects within a range according to the Launch object's order
-
 C)ustomer search allows you to print Launch objects based on an exact search, or a match search.
   - the match search takes your input and will print any Launch object whose customer value contains your input. It can be anywhere in the customer value
-
 O)rbit search acts exactly like customer search, allowing for an exact match or a matching match, but it looks for orbit values instead.
-
 D)ate will search for an exact date or a range of dates. Give it a date in the format of (MM DD YYYY). 
   - You will have to provide two dates, on separate enters, when using the range fucntion.
-
 S)wap mode allows you to switch the mode. There are two modes: printing and manipulation.
   - Printing will only print the Launch objects when you select a choice from the menu
   - Manipulation will delete all non-found Launch objects when you select a choice from the menu
     * Ex) if you search for an exact date like 06 04 2018, only one Launch object is printed. If you try to print all, only this object will appear.
-
 F)ile read will reread the file and recreate your vector of Launch objects. It's intended use is with the manipulation mode.
